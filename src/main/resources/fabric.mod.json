@@ -1,40 +1,33 @@
 {
 	"schemaVersion": 1,
-	"id": "justmagnet",
+	"id": "boatjump",
 	"version": "${version}",
-	"name": "Just Magnet, nothing more",
-	"description": "This mod adds just magnets to the game. They can picked up items. Nothing more.",
+	"name": "Just boat jump, nothing more",
+	"description": "Simple mod that allows boats to jump using spacebar. Nothing more.",
 	"authors": [
 		"skvoryanich"
 	],
 	"contact": {
-		"sources": "https://github.com/skvoryanich/just-magnet-nothing-more-mod.git"
+		"sources": "https://github.com/skvoryanich/boat-jump-mod.git"
 	},
 	"license": "MIT",
-	"icon": "assets/justmagnet/mod_icon.png",
+	"icon": "assets/boatjump/mod_icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.justmagnet.JustMagnetMod"
+			"net.boatjump.BoatJumpMod"
 		],
 		"client": [
-			"net.justmagnet.JustMagnetModClient"
-		],
-		"modmenu": [
-			"net.justmagnet.config.ModMenuIntegration"
+			"net.boatjump.BoatJumpModClient"
 		]
 	},
 	"mixins": [
-		"justmagnet.mixins.json"
+		"boatjump.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.17.2",
 		"minecraft": "~1.21.10",
 		"java": ">=21",
-		"fabric-api": "*",
-		"cloth-config2": ">=15.0.0"
-	},
-	"suggests": {
-		"modmenu": ">=11.0.0"
+		"fabric-api": "*"
 	}
 }

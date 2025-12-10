@@ -1,13 +1,12 @@
 {
 	"required": true,
-	"package": "net.justmagnet.mixin",
+	"package": "net.boatjump.mixin",
 	"compatibilityLevel": "JAVA_21",
-	"mixins": [
-		"ItemEntityMixin",
-		"ItemStackMixin"
+	"mixins": [],
+	"client": [
+		"BoatEntityMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
 	}
 }
-

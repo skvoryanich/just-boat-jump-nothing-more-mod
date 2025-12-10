@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:item/handheld",
-  "textures": {
-    "layer0": "justmagnet:item/broken_advanced_magnet_jmnm"
-  }
-}
-

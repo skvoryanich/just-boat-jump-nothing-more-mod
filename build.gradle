@@ -11,13 +11,11 @@ base {
 }
 
 repositories {
-	maven { url = 'https://maven.shedaniel.me/' }
-	maven { url = 'https://maven.terraformersmc.com/releases/' }
 }
 
 loom {
 	mods {
-		"justmagnet" {
+		"boatjump" {
 			sourceSet sourceSets.main
 		}
 	}
@@ -29,12 +27,6 @@ dependencies {
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-
-	// Cloth Config для конфигов
-	modImplementation("me.shedaniel.cloth:cloth-config-fabric:${project.cloth_config_version}")
-
-	// ModMenu для UI конфигов
-	modImplementation("com.terraformersmc:modmenu:${project.modmenu_version}")
 }
 
 processResources {

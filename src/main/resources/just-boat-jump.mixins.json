@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "net.boatjump.mixin",
+	"package": "net.justboatjump.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [],
 	"client": [

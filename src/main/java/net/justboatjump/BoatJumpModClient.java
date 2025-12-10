@@ -1,4 +1,4 @@
-package net.boatjump;
+package net.justboatjump;
 
 import net.fabricmc.api.ClientModInitializer;
 

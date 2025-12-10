@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "net.justmagnet.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ItemEntityMixin",
+		"ItemStackMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
+

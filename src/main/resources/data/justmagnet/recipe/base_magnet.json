@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "I": "minecraft:iron_block",
+    "C": "minecraft:copper_block",
+    "B": "justmagnet:base_core"
+  },
+  "pattern": [
+    "I I",
+    "C C",
+    "CBC"
+  ],
+  "result": {
+    "id": "justmagnet:base_magnet",
+    "count": 1
+  }
+}
+

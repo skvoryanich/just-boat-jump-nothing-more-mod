@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "equipment",
+  "cookingtime": 600,
+  "experience": 1.0,
+  "ingredient": "justmagnet:broken_advanced_magnet",
+  "result": {
+    "id": "justmagnet:advanced_core"
+  }
+}
+

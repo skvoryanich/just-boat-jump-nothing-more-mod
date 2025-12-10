@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_advanced_core": {
+      "conditions": {
+        "items": [
+          {
+            "items": "justmagnet:advanced_core"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_advanced_core"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "justmagnet:advanced_magnet"
+    ]
+  }
+}
+

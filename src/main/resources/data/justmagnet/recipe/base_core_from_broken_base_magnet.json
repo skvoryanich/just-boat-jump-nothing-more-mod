@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "equipment",
+  "cookingtime": 300,
+  "experience": 1.0,
+  "ingredient": "justmagnet:broken_base_magnet",
+  "result": {
+    "id": "justmagnet:base_core"
+  }
+}
+

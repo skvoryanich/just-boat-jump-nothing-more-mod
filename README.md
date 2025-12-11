@@ -16,6 +16,4 @@ A simple Minecraft Fabric mod that adds the ability for boats to jump using the 
 
 ## Requirements
 
-- Minecraft 1.21.10
 - Fabric Loader 0.17.2+
-- Fabric API

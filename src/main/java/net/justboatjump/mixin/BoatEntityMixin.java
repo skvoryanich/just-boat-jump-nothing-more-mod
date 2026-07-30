@@ -1,5 +1,6 @@
 package net.justboatjump.mixin;
 
+import net.justboatjump.BoatJumpGate;
 import net.minecraft.block.Blocks;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.option.KeyBinding;
@@ -36,6 +37,10 @@ public abstract class BoatEntityMixin {
 
         // Check if player is controlling this boat
         if (!boat.hasPassenger(client.player)) {
+            return;
+        }
+
+        if (!BoatJumpGate.isEnabled()) {
             return;
         }
 
